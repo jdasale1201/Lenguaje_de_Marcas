@@ -1,0 +1,31 @@
+header{
+    text-align: right;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+main{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+footer{
+    background-color: rgb(17, 187, 130);
+    text-align: center;
+}
+
+.sin_estilo{
+    list-style-type: none;
+}
+
+h1{
+    color: rgb(147, 201, 20);
+}
+
+h2{
+    color: brown;
+}
+
+.resaltar{
+    color: rgb(0, 89, 255);
+}
