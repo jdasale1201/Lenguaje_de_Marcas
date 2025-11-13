@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: #f8f8f8;
+    color: #222;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.cilio { color: red; }
+.millo { color: gray; }
+.zephyr { color: green; }
+.camus { color: yellow; }
+.yakon { color: brown; }
+.gerania { color: skyblue; }
+.junko { color: blue; }
+.lirio { color: orange; }
+
+#reshiram img,
+#zekrom img {
+    display: block;
+    float: right;
+    margin-left: 20px;
+    max-width: 300px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+ul li:hover {
+    text-shadow: 0 0 8px rgba(0,0,0,0.4);
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.imagenes-legendarios {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 20px 0;
+}
+
+.imagenes-legendarios figure {
+    text-align: center;
+}
+
+.imagenes-legendarios img {
+    height: 250px; 
+    width: auto;
+    border-radius: 10px;
+}
+
+#iniciales h2 {
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 40px;
+}
