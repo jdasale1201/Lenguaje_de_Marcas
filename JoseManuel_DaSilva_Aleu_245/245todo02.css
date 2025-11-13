@@ -23,6 +23,10 @@ h2 {
 .junko { color: blue; }
 .lirio { color: orange; }
 
+.titulo-legendarios{
+    text-align: center;
+}
+
 #reshiram img,
 #zekrom img {
     display: block;
@@ -49,6 +53,23 @@ ul li:hover {
     text-shadow: none;
     transform: none;
     transition: none;
+}
+
+.tabla-historia {
+    border: none;
+    border-collapse: collapse; 
+}
+
+.tabla-historia td {
+    border: none;
+}
+
+.tabla-historia td:first-child {
+    padding-right: 30px; 
+}
+
+.tabla-historia td:last-child {
+    padding-left: 30px;
 }
 
 
