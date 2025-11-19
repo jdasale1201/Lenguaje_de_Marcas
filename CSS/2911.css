@@ -1,0 +1,26 @@
+table{margin:20px 0;border:1px solid #000;border-collapse:separate}
+th,td{padding:6px;border:1px solid #555}
+
+.ej1{border-collapse:collapse}
+.ej2{border-collapse:separate;border-spacing:10px}
+
+caption{font-weight:bold;margin:5px}
+.top caption{caption-side:top}
+.bottom caption{caption-side:bottom}
+
+.empty-show{empty-cells:show}
+.empty-hide{empty-cells:hide}
+
+.auto{table-layout:auto;width:250px}
+.fixed{table-layout:fixed;width:250px}
+
+.caja{
+width:150px;
+height:50px;
+padding:10px;
+margin:10px 0;
+border:3px solid red;
+background-color:#f0f0f0;
+box-sizing:border-box;
+box-shadow: 4px 4px 8px rgba(0,0,0,0.15);
+}

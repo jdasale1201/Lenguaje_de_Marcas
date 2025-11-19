@@ -1,0 +1,81 @@
+* {
+    margin: 1%;
+    background-color: rgb(151, 206, 206);
+}
+
+header {
+    background-color: white;
+    border-style: ridge;
+}
+
+aside {
+    text-align: center;
+}
+
+dd {
+    margin-left: 10%;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+figcaption {
+    font-style: normal;
+    font-size: 100%;
+    color: rgb(182, 88, 26);
+    text-align: center;
+}
+
+address {
+    color: blue;
+}
+
+#textotitulo {
+    text-align: center;
+    color: coral;
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 600%;
+}
+
+.textoinicio {
+    font-style: normal;
+    font-size: 100%;
+    color: rgb(182, 88, 26);
+    padding: 0%;
+    background-color: rgb(151, 206, 206);
+}
+
+.textonormal {
+    text-align: justify;
+    font-style: normal;
+    font-size: 150%;
+    color: rgb(43, 23, 10);
+}
+
+.titulonormal {
+    font-style: oblique;
+    color: brown;
+    font-size: xx-large;
+}
+
+.textoespecial {
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+a[href] {
+    color: rgb(62, 65, 201);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    background-color: rgb(127, 241, 241);
+    padding: 1%;
+}
+
+img[src] {
+    width: 100%;
+}
+
+address[lang="en"]{
+    color: white;
+}

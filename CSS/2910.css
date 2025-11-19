@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+
+.lista-desordenada {
+    list-style-type: square;
+    background-color: #f8e4c8;
+    padding: 15px;
+    width: 300px;
+}
+
+
+.caja-modificada {
+    border: 2px solid #555;
+    padding: 5px;
+    margin-top: 8px;
+    background-color: #ffe4b5;
+}
+
+
+.lista-ordenada {
+    list-style: lower-greek;
+    border: 3px solid #ccc;
+    padding: 15px;
+    width: 300px;
+    border-radius: 12px;
+}
