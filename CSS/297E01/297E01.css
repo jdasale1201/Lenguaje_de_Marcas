@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+.content{
+    display: flex;background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.item1{
+    height: 30vh;
+    width: 40vw;
+    background-color: goldenrod;
+}
